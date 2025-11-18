@@ -1,0 +1,1 @@
+export function Slider(){return <div className="w-full h-2 bg-gray-200 rounded-full" />;}
