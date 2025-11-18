@@ -1,8 +1,6 @@
 # Platform Comparison Website
 
-This project is an interactive dashboard for comparing different website-building platforms.  
-It scores each platform across categories such as **marketing**, **payments**, **customization**,  
-**admin usability**, **scalability**, and **ecosystem strength**.
+This project is an interactive dashboard for comparing different website-building platforms. It scores each platform across categories such as **marketing**, **payments**, **customization**, **admin usability**, **scalability**, and **ecosystem strength**.
 
 Built with **React**, **Vite**, **Tailwind CSS**, **Framer Motion**, and **Recharts**.
 
@@ -11,61 +9,47 @@ Built with **React**, **Vite**, **Tailwind CSS**, **Framer Motion**, and **Recha
 ## 🚀 Running the project
 
 Install dependencies:
-
+```bash
 npm install
-
-powershell
-Copy code
+```
 
 Start the development server:
-
+```bash
 npm run dev
+```
 
-yaml
-Copy code
-
-Your browser will open the local dev URL. Any changes inside `src/` reload automatically.
+Your browser will open the local development URL. Changes inside the `src/` directory reload automatically.
 
 ---
 
 ## 📦 Build for production
-
+```bash
 npm run build
-
-yaml
-Copy code
-
-The optimized output will be placed in the `dist/` folder.
+```
+The optimized output will appear in the `dist/` folder.
 
 ---
 
 ## 📁 Project structure
-
+```txt
 src/
-components/
-data/
-App.jsx
-main.jsx
+  components/
+  data/
+  App.jsx
+  main.jsx
 public/
 package.json
 README.md
-
-yaml
-Copy code
+```
 
 ---
 
 ## 📊 What the app does
 
 The dashboard:
+- displays platform scores side-by-side
+- visualizes performance through dynamic charts
+- lists strengths and risks
+- enables quick comparison for service-based businesses
 
-- shows platform scores side-by-side  
-- visualizes performance using charts  
-- lists strengths and risks  
-- allows quick comparison for service-based businesses  
-
-To add or modify platforms, edit the files inside `src/data`.
-
----
-
-This README is ready to paste into your repo.
+Add or modify platforms by editing the files inside `src/data`.
