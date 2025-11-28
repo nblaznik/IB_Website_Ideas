@@ -1,6 +1,6 @@
 # Platform Comparison Website
 
-This project is an interactive dashboard for comparing different website-building platforms. It scores each platform across categories such as **marketing**, **payments**, **customization**, **admin usability**, **scalability**, and **ecosystem strength**.
+An interactive dashboard for comparing different website-building platforms. It scores each platform across categories such as **marketing**, **payments**, **customization**, **admin usability**, **scalability**, and **ecosystem strength**. 
 
 Built with **React**, **Vite**, **Tailwind CSS**, **Framer Motion**, and **Recharts**.
 
